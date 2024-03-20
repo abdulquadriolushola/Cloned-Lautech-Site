@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* overflow-x: hidden; */
+}
+body{
+    overflow-x: hidden;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.img{
+    background-image: url(./logo2.PNG);
+    height: 65px;
+    width: 20%;
+    background-size: cover;
+    cursor: pointer;
+}
+.sec2{
+    background-color:rgb(191, 159, 97);
+}
+@media(max-width: 700px){
+        .sec2 .code{
+            text-align: center;
+        }
+    }
+.code{
+    margin-left: 600px;
+    font-size: 30px;
+}
+.sec2{
+    /* position: sticky; */
+    top: 0px;
+}
+.dots{
+ display: grid;
+ gap: 2px;
+    /* display: flex;
+    gap: 2px; */
+    
+}
+.dot1{
+    color: blue;
+    margin-left: 600px;
+    
+}
+.dot2{
+    color: yellow;
+    margin-left: 600px;
+    
+}
+.dot3{
+    color:green;
+    margin-left: 600px;
+    
+}
+.caption{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.imgsec3{
+    background-image: url(./img1.PNG);
+    height: 50px;
+    width: 10px;
+}
+.imgSec3{
+    
+}
+.overall{
+display: flex;
+background-color: #fff;
+justify-content: space-between;
+}
+.news{
+margin-left: 50px;
+}
+.launews{
+    font-size: 30px;
+}
+.events{
+    /* margin-left: 610px; */
+}
+.image1{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.image1 img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.img1{
+    width: 600px;
+    display: block;
+    
+}
+.image2{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.image2 img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.img2{
+    width: 600px;
+    display: block;
+    
+}
+.image3{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.image3 img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.img3{
+    width: 600px;
+    display: block;
+    
+}
+.image4{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.image4 img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.img4{
+    width: 600px;
+    display: block;
+    
+}
+.image5{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.image5 img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.img5{
+    width: 600px;
+    display: block;
+    
+}
+.image6{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.image6 img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.img6{
+    width: 600px;
+    display: block;
+    
+}
+.btn{
+    margin-left: 200px;
+    margin-top: 10px;
+    padding: 9px;
+    border-radius: 20px;
+    border-color: red;
+    cursor: pointer;
+} 
+.btn:hover{
+    background-color: red;
+    color: #fff;
+} 
+.btn1{
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 9px;
+    border-radius: 20px;
+    border-color: red;
+    cursor: pointer;
+} 
+.btn1:hover{
+    background-color: red;
+    color: #fff;
+} 
+.bottom{
+    display: flex;
+}
+.time{
+    background-color:red;
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+}
+.parentt{
+    display: flex;
+}
+.sec4{
+    display: flex;
+}
+.admission{
+    width: 450px;
+    height: 400px;
+     /* background-size: cover; */
+     background-repeat: no-repeat;
+}
+.sec4{
+    margin-top: 50px;
+}
+.newDiv{
+    background-color:rgb(191, 159, 97);
+    width: 450px;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.div2{
+    width: 450px;
+    height: 400px;
+    background-color: red;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.div3{
+    background-color:rgb(191, 159, 97);
+    width: 450px;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.admission2{
+    width: 450px;
+    height: 400px;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+.head{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.social{
+    display: flex;
+    margin-left: 600px;
+    justify-content: space-between;
+    width: 250px;
+    
+}
+.div456{
+    display: flex;
+    width: 100px;
+    margin: 40px;
+}
+.DIV4{
+        width: 450px;
+        height: 400px;
+        background-color: white;
+        padding: 30px;
+        border: 2px solid whitesmoke;
+}
+.div41{
+    margin-top: 25px;
+}
+.DIV5{
+    width: 450px;
+    height: 400px;
+    background-color:white;
+    padding: 30px;
+    border: 2px solid  whitesmoke;
+}
+.div51{
+    margin-top: 25px;
+}
+.DIV6{
+    width: 450px;
+    height: 400px;
+    background-color: white;
+   padding: 30px;
+    border: 2px solid  whitesmoke;
+}
+.div61{
+    margin-top: 25px;
+}
+ /* .div1{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between; 
+}  */
+.span{
+  margin-left: 500px;
+}
+/* .ptag{
+    margin-left: 50px;
+    width: 10px;
+} */
+.foot{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(0, 0, 0, 0.849);
+    color: #fff;
+}
+.staff{
+
+}
+.acad{
+    margin-left: 550px;
+    background-color:red;
+    height: 20px;
+    width: 180px;
+    padding: 10px;
+    
+}
+.line{
+    background-color: red;
+    height: 1px;
+    border: none;
+}
+.footer{
+    background-color: 
+    rgba(0, 0, 0, 0.959);
+    padding-left: 300px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.world{
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.fm{
+  position: absolute; 
+  top: 0;
+  left: 0; 
+}
+.ab{
+    position: relative;
+    z-index: 1;
+}
+
+
+@media screen and (max-width:800px){
+.sec1 img{
+    width: 100%;
+}
+.heading{
+width: 100%;
+}
+.sec2{
+    width: 100%;
+}
+.code{
+    margin-left: 200px;
+    font-style: 30px;
+}
+.overall{
+    display: block;
+}
+.events img{
+    width: 100%;
+}
+.news{
+    width: 50%;
+    margin-left: 0;
+}
+.img1{
+    width: 100%;
+}
+.img2{
+    width: 100%;
+}
+.img3{
+    width: 100%;
+}
+.img4{
+    width: 100%;
+}
+.img5{
+    width: 100%;
+}
+.img6{
+    width: 100%;
+}
+.sec4{
+    display: block;
+}
+.social{
+    margin-left: 60px;
+    justify-content: space-between;
+    width: 250px;
+}
+.head{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-style: 25px;
+
+}
+.div456{
+    display: block;
+}
+.footer{
+    display: block;
+}
+.foot{
+    display: block;
+    padding-left: 20px;
+}
+.acad{
+    margin-left: 50px;
+    background-color: red;
+    height: 20px;
+    width: 180px;
+    padding: 10px;
+}
+.footer{
+  text-align: center;
+}
+}
